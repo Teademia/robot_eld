@@ -1,0 +1,37 @@
+[0.129s] Invoking command in '/home/hp/src/ros/fishbot_cartographer/build/fishbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/src/ros/fishbot_description/install/fishbot_description:/home/hp/src/ros/new_gazebo/install/new_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/hp/src/ros/fishbot_cartographer/build/fishbot_cartographer -- -j16 -l16
+[0.160s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.287s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.308s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.310s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.316s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.326s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.420s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.453s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.454s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.571s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.660s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[0.664s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.890s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.947s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.011s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.011s] -- Configured cppcheck include dirs: 
+[1.012s] -- Configured cppcheck exclude dirs and/or files: 
+[1.013s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.016s] -- Added test 'lint_cmake' to check CMake code style
+[1.018s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.030s] -- Added test 'uncrustify' to check C / C++ code style
+[1.030s] -- Configured uncrustify additional arguments: 
+[1.032s] -- Added test 'xmllint' to check XML markup files
+[1.033s] -- Configuring done
+[1.043s] -- Generating done
+[1.045s] -- Build files have been written to: /home/hp/src/ros/fishbot_cartographer/build/fishbot_cartographer
+[1.086s] [ 50%] [32mBuilding CXX object CMakeFiles/laser_pub.dir/src/laser_pub.cpp.o[0m
+[1.290s] [01m[K/home/hp/src/ros/fishbot_cartographer/src/laser_pub.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/laser_scan.hpp: No such file or directory
+[1.290s]     2 | #include [01;31m[K"sensor_msgs/msg/laser_scan.hpp"[m[K
+[1.290s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.290s] compilation terminated.
+[1.293s] gmake[2]: *** [CMakeFiles/laser_pub.dir/build.make:76: CMakeFiles/laser_pub.dir/src/laser_pub.cpp.o] Error 1
+[1.294s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/laser_pub.dir/all] Error 2
+[1.294s] gmake: *** [Makefile:146: all] Error 2
+[1.298s] Invoked command in '/home/hp/src/ros/fishbot_cartographer/build/fishbot_cartographer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hp/src/ros/fishbot_description/install/fishbot_description:/home/hp/src/ros/new_gazebo/install/new_gazebo:/opt/ros/humble /usr/bin/cmake --build /home/hp/src/ros/fishbot_cartographer/build/fishbot_cartographer -- -j16 -l16

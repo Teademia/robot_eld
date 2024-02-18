@@ -1,0 +1,2 @@
+Invoking command in '/home/hp/src/ros/fishbot_navigation2/build/fishbot_navigation2': /usr/bin/cmake /home/hp/src/ros/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/hp/src/ros/fishbot_navigation2/install/fishbot_navigation2
+Invoked command in '/home/hp/src/ros/fishbot_navigation2/build/fishbot_navigation2' returned '1': /usr/bin/cmake /home/hp/src/ros/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/hp/src/ros/fishbot_navigation2/install/fishbot_navigation2

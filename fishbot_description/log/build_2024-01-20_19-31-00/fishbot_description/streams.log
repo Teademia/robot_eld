@@ -1,0 +1,35 @@
+[0.792s] Invoking command in '/home/hp/src/ros/fishbot_description': PYTHONPATH=/home/hp/src/ros/fishbot_description/build/fishbot_description/prefix_override:/home/hp/src/ros/fishbot_description/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/fishbot_description build --build-base /home/hp/src/ros/fishbot_description/build/fishbot_description/build install --record /home/hp/src/ros/fishbot_description/build/fishbot_description/install.log --single-version-externally-managed
+[0.989s] running egg_info
+[0.989s] creating build/fishbot_description/fishbot_description.egg-info
+[0.989s] writing build/fishbot_description/fishbot_description.egg-info/PKG-INFO
+[0.989s] writing dependency_links to build/fishbot_description/fishbot_description.egg-info/dependency_links.txt
+[0.990s] writing entry points to build/fishbot_description/fishbot_description.egg-info/entry_points.txt
+[0.990s] writing requirements to build/fishbot_description/fishbot_description.egg-info/requires.txt
+[0.990s] writing top-level names to build/fishbot_description/fishbot_description.egg-info/top_level.txt
+[0.990s] writing manifest file 'build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.991s] reading manifest file 'build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.991s] writing manifest file 'build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.991s] running build
+[0.992s] running build_py
+[0.992s] creating /home/hp/src/ros/fishbot_description/build/fishbot_description/build
+[0.992s] creating /home/hp/src/ros/fishbot_description/build/fishbot_description/build/lib
+[0.992s] creating /home/hp/src/ros/fishbot_description/build/fishbot_description/build/lib/fishbot_description
+[0.992s] copying fishbot_description/__init__.py -> /home/hp/src/ros/fishbot_description/build/fishbot_description/build/lib/fishbot_description
+[0.992s] running install
+[0.993s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.993s]   warnings.warn(
+[0.993s] running install_lib
+[0.993s] creating /home/hp/src/ros/fishbot_description/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[0.993s] copying /home/hp/src/ros/fishbot_description/build/fishbot_description/build/lib/fishbot_description/__init__.py -> /home/hp/src/ros/fishbot_description/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[0.994s] byte-compiling /home/hp/src/ros/fishbot_description/install/fishbot_description/lib/python3.10/site-packages/fishbot_description/__init__.py to __init__.cpython-310.pyc
+[0.994s] running install_data
+[0.994s] creating /home/hp/src/ros/fishbot_description/install/fishbot_description/share/ament_index
+[0.994s] creating /home/hp/src/ros/fishbot_description/install/fishbot_description/share/ament_index/resource_index
+[0.994s] creating /home/hp/src/ros/fishbot_description/install/fishbot_description/share/ament_index/resource_index/packages
+[0.994s] copying resource/fishbot_description -> /home/hp/src/ros/fishbot_description/install/fishbot_description/share/ament_index/resource_index/packages
+[0.995s] copying package.xml -> /home/hp/src/ros/fishbot_description/install/fishbot_description/share/fishbot_description
+[0.995s] running install_egg_info
+[0.996s] Copying build/fishbot_description/fishbot_description.egg-info to /home/hp/src/ros/fishbot_description/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info
+[0.996s] running install_scripts
+[1.011s] writing list of installed files to '/home/hp/src/ros/fishbot_description/build/fishbot_description/install.log'
+[1.036s] Invoked command in '/home/hp/src/ros/fishbot_description' returned '0': PYTHONPATH=/home/hp/src/ros/fishbot_description/build/fishbot_description/prefix_override:/home/hp/src/ros/fishbot_description/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/fishbot_description build --build-base /home/hp/src/ros/fishbot_description/build/fishbot_description/build install --record /home/hp/src/ros/fishbot_description/build/fishbot_description/install.log --single-version-externally-managed
